@@ -1,0 +1,11 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:complexType name="Report">
+        <xsd:sequence>
+            <xsd:element name="clientId" type="xsd:int"/>
+            <xsd:element name="clientName" type="xsd:string"/>
+            <xsd:element name="clientAge" type="xsd:int"/>
+            <xsd:element name="clientSalary" type="xsd:decimal"/>
+            <xsd:element name="clientTax" type="xsd:decimal"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

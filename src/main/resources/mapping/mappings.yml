@@ -1,0 +1,12 @@
+mapping:
+  fields:
+  - entityField: id
+    reportField: clientId
+  - entityField: name
+    reportField: clientName
+  - entityField: age
+    reportField: clientAge
+  - entityField: salary
+    reportField: clientSalary
+  - entityField: tax
+    reportField: clientTax
